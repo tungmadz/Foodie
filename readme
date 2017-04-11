@@ -1,0 +1,35 @@
+*Database
+
+
+	Menu : [
+	{
+		name : Pizza,
+		description : From Italy with love,
+		image : /image/pizza.jpg,
+		cost : $5
+	},
+	{
+		name : Noodle,
+		description : From VietNam with love,
+		image : /image/noodle.jpg,
+		cost : $2'	
+	}
+	]
+
+
+	Order :{
+		"id" : "10001",		
+		"table" : "4",
+		"dishes": [
+			{
+				"name" : "Pizza",
+				"quantity": "1",
+			},
+			{
+				"name" : "Coca",
+				"quantity": "2",
+			}
+		]			
+
+		
+}
